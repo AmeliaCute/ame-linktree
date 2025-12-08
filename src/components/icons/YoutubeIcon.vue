@@ -6,6 +6,6 @@
 
 <script>
 export default {
-  name: 'YouTubeIcon'
+  name: 'YoutubeIcon'
 }
 </script>

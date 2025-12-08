@@ -92,7 +92,7 @@ import EmailIcon from './icons/EmailIcon.vue'
 import TwitchIcon from './icons/TwitchIcon.vue'
 import TiktokIcon from './icons/TiktokIcon.vue'
 import DiscordIcon from './icons/DiscordIcon.vue'
-import YouTubeIcon from './icons/YouTubeIcon.vue'
+import YoutubeIcon from './icons/YoutubeIcon.vue'
 
 export default {
   name: 'SocialLinks',
@@ -102,36 +102,25 @@ export default {
     TwitchIcon,
     TiktokIcon,
     DiscordIcon,
-    YouTubeIcon
+    YoutubeIcon
   },
   props: {
-    socialLinks: {
-      type: Array,
-      default: () => [
-        {
-          name: 'GitHub',
-          url: 'https://github.com/yourusername',
-          icon: 'github'
-        },
-        {
-          name: 'Email',
-          url: 'mailto:your.email@example.com',
-          icon: 'email'
-        }
-      ]
+    socialLinks: 
+    {
+      type: Array
     }
   },
   methods: {
     getIcon(iconName) {
       const icons = {
-        github: 'GitHubIcon',
+        github: 'GithubIcon',
         email: 'EmailIcon',
         twitch: 'TwitchIcon',
-        tiktok: 'TikTokIcon',
+        tiktok: 'TiktokIcon',
         discord: 'DiscordIcon',
-        youtube: 'YouTubeIcon'
+        youtube: 'YoutubeIcon'
       }
-      return icons[iconName] || 'GitHubIcon'
+      return icons[iconName] || 'GithubIcon'
     }
   }
 }
