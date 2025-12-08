@@ -6,6 +6,6 @@
 
 <script>
 export default {
-  name: 'GitHubIcon'
+  name: 'GithubIcon'
 }
 </script>

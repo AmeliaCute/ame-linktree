@@ -164,7 +164,7 @@
 </style>
 
 <script>
-import GitHubIcon from './icons/GitHubIcon.vue'
+import GitHubIcon from './icons/GithubIcon.vue'
 import StarIcon from './icons/StarIcon.vue'
 import ExternalLinkIcon from './icons/ExternalLinkIcon.vue'
 

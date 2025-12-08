@@ -87,7 +87,7 @@
 </style>
 
 <script>
-import GitHubIcon from './icons/GitHubIcon.vue'
+import GithubIcon from './icons/GithubIcon.vue'
 import EmailIcon from './icons/EmailIcon.vue'
 import TwitchIcon from './icons/TwitchIcon.vue'
 import TikTokIcon from './icons/TikTokIcon.vue'
@@ -97,7 +97,7 @@ import YouTubeIcon from './icons/YouTubeIcon.vue'
 export default {
   name: 'SocialLinks',
   components: {
-    GitHubIcon,
+    GithubIcon,
     EmailIcon,
     TwitchIcon,
     TikTokIcon,
