@@ -90,7 +90,7 @@
 import GithubIcon from './icons/GithubIcon.vue'
 import EmailIcon from './icons/EmailIcon.vue'
 import TwitchIcon from './icons/TwitchIcon.vue'
-import TikTokIcon from './icons/TikTokIcon.vue'
+import TiktokIcon from './icons/TiktokIcon.vue'
 import DiscordIcon from './icons/DiscordIcon.vue'
 import YouTubeIcon from './icons/YouTubeIcon.vue'
 
@@ -100,7 +100,7 @@ export default {
     GithubIcon,
     EmailIcon,
     TwitchIcon,
-    TikTokIcon,
+    TiktokIcon,
     DiscordIcon,
     YouTubeIcon
   },

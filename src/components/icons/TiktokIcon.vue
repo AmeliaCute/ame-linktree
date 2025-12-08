@@ -6,6 +6,6 @@
 
 <script>
 export default {
-  name: 'TikTokIcon'
+  name: 'TiktokIcon'
 }
 </script>
