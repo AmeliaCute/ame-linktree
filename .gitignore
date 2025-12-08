@@ -1,0 +1,16 @@
+*
+!public/
+!public/**/*
+
+!src/
+!src/**/*
+
+!index.html
+!vite.config.js
+!package.json
+
+!.github/
+!.github/**/*
+
+!.gitignore
+!README.md
