@@ -2,8 +2,8 @@
   "background": 
   {
     "image": "https://assets.ppy.sh/contests/215/winners/mocapixel.png",
-    "blur": 15,
-    "brightness": 0.35
+    "blur": 25,
+    "brightness": 0.15
   },
 
   "profile": {
