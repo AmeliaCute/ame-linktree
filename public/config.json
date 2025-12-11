@@ -56,10 +56,11 @@
     }
   ],
 
-  "projects": [
+  "projects": 
+  [
     {
       "name": "FLi-API",
-      "description": "Projet de Modding pour Fantasy Life I, qui a pour but dans le future de pouvoir faire tourner du custom code dans le jeu.",
+      "description": "Projet de modding pour Fantasy Life I, dont l'objectif est de permettre à l'avenir d'exécuter du code personnalisé dans le jeu.",
       "tags": ["C++", "CLang", "IDA Pro"],
       "github": "https://github.com/ReDevCafe/FantasyLifeI-API",
       "live": "http://flidoc.amycute.xyz/",
@@ -67,12 +68,30 @@
       "featured": true
     },
     {
+      "name": "FLi-ModTemplate",
+      "description": "Un template permettant de créer des mods avec FLi-API.",
+      "tags": ["C++", "CMake", "Template"],
+      "github": "https://github.com/ReDevCafe/FantasyLifeI-ModTemplate",
+      "live": "https://github.com/new?template_name=FantasyLifeI-ModTemplate&template_owner=ReDevCafe",
+      "stars": 3,
+      "featured": true
+    },
+    {
       "name": "Mending Reworked",
-      "description": "Un mod qui revoit totalement le fonctionnement de l'enchantement Mending dans Minecraft",
-      "tags": ["Minecraft", "Java", "Fabric/Neoforge"],
+      "description": "Un mod qui revoit totalement le fonctionnement de l'enchantement Mending dans Minecraft.",
+      "tags": ["Java", "Minecraft", "Fabric/Neoforge"],
       "github": "https://github.com/AmeliaCute/MendingReworked",
-      "live":  null,
+      "live": null,
       "stars": 1,
+      "featured": true
+    },
+    {
+      "name": "Auralith",
+      "description": "T'inquiète ça arrive bientôt. ;3",
+      "tags": ["~JS", "Minecraft", "Modpack"],
+      "github": "https://github.com/AmeliaCute/Auralith",
+      "live": null,
+      "stars": 0,
       "featured": true
     }
   ],
@@ -84,11 +103,6 @@
       "primary": "#ff66c4",
       "secondary": "#667eea",
       "accent": "#f093fb"
-    },
-    "gradients": 
-    {
-      "main": "linear-gradient(135deg, #ff66c4, #667eea, #f093fb)",
-      "overlay": "linear-gradient(135deg, rgba(255, 102, 196, 0.08) 0%, rgba(102, 126, 234, 0.08) 100%)"
     }
   }
 }

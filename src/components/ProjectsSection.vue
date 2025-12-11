@@ -1,7 +1,7 @@
 <template>
   <section class="projects-section">
     <div class="section-header">
-      <h2 class="section-title">Featured Projects</h2>
+      <h2 class="section-title">Projet phare</h2>
       <div class="section-divider"></div>
     </div>
 
