@@ -63,7 +63,10 @@
       "description": "Projet de modding pour Fantasy Life I, dont l'objectif est de permettre à l'avenir d'exécuter du code personnalisé dans le jeu.",
       "tags": ["C++", "CLang", "IDA Pro"],
       "github": "https://github.com/ReDevCafe/FantasyLifeI-API",
-      "live": "http://flidoc.amycute.xyz/",
+      "live": {
+        "uri": "https://flidoc.amycute.xyz/",
+        "title": "Docs"
+      },
       "stars": 5,
       "featured": true
     },
@@ -72,7 +75,10 @@
       "description": "Un template permettant de créer des mods avec FLi-API.",
       "tags": ["C++", "CMake", "Template"],
       "github": "https://github.com/ReDevCafe/FantasyLifeI-ModTemplate",
-      "live": "https://github.com/new?template_name=FantasyLifeI-ModTemplate&template_owner=ReDevCafe",
+      "live": {
+        "uri": "https://github.com/new?template_name=FantasyLifeI-ModTemplate&template_owner=ReDevCafe",
+        "title": "Template"
+      },
       "stars": 3,
       "featured": true
     },

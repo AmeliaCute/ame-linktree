@@ -20,9 +20,9 @@
           <GitHubIcon />
           Code
         </a>
-        <a v-if="project.live" :href="project.live" target="_blank" class="project-btn primary">
+        <a v-if="project.live" :href="project.live.uri" target="_blank" class="project-btn primary">
           <ExternalLinkIcon />
-          Docs
+          {{ project.live.title }}
         </a>
       </div>
     </div>
@@ -175,8 +175,10 @@ export default {
     StarIcon,
     ExternalLinkIcon
   },
-  props: {
-    project: {
+  props: 
+  {
+    project: 
+    {
       type: Object,
       required: true
     }
