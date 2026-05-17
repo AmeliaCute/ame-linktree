@@ -14,7 +14,7 @@ export const SOCIALS =
   { label: 'TikTok', href: 'https://www.tiktok.com/@arandomamelia', accent: '#d6aaff', icon: 'tiktok'  },
   { label: 'Discord', href: 'https://discord.gg/SZp2yFkDm3', accent: '#aabbff', icon: 'discord' },
   { label: 'YouTube', href: 'https://www.youtube.com/@ARandomAmelia', accent: '#ffaaaa', icon: 'youtube' },
-  { label: 'Twitter', href: 'https://x.com/AmeliaCuteUwU', accent: '#aae7ff', icon: 'twitter' },
+  { label: 'Twitter', href: 'https://x.com/ARandomAmela', accent: '#aae7ff', icon: 'twitter' },
   { label: 'Email', href: 'mailto:mail@amycute.xyz', accent: '#ffccaa', icon: 'email' },
 ]
 
